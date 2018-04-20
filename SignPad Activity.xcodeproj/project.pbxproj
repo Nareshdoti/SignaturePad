@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A5E8891C291414000BBFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5E8881C291414000BBFF8 /* main.m */; };
+		51A5E88F1C291414000BBFF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5E88E1C291414000BBFF8 /* ViewController.m */; };
+		51A5E8921C291414000BBFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A5E8901C291414000BBFF8 /* Main.storyboard */; };
+		51A5E8941C291414000BBFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A5E8931C291414000BBFF8 /* Assets.xcassets */; };
+		51A5E8971C291414000BBFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A5E8951C291414000BBFF8 /* LaunchScreen.storyboard */; };
+		51A5E8A21C291414000BBFF8 /* SignPad_ActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5E8A11C291414000BBFF8 /* SignPad_ActivityTests.m */; };
+		51A5E8AD1C291414000BBFF8 /* SignPad_ActivityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5E8AC1C291414000BBFF8 /* SignPad_ActivityUITests.m */; };
+		51A5E8BC1C29145A000BBFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5E8BB1C29145A000BBFF8 /* AppDelegate.m */; };
+		51A5E8BF1C291503000BBFF8 /* PJRSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A5E8BE1C291503000BBFF8 /* PJRSignatureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51A5E89E1C291414000BBFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A5E87C1C291414000BBFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A5E8831C291414000BBFF8;
+			remoteInfo = "SignPad Activity";
+		};
+		51A5E8A91C291414000BBFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A5E87C1C291414000BBFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A5E8831C291414000BBFF8;
+			remoteInfo = "SignPad Activity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51A5E8841C291414000BBFF8 /* SignPad Activity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignPad Activity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A5E8881C291414000BBFF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51A5E88D1C291414000BBFF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51A5E88E1C291414000BBFF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51A5E8911C291414000BBFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51A5E8931C291414000BBFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51A5E8961C291414000BBFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51A5E8981C291414000BBFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5E89D1C291414000BBFF8 /* SignPad ActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignPad ActivityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A5E8A11C291414000BBFF8 /* SignPad_ActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignPad_ActivityTests.m; sourceTree = "<group>"; };
+		51A5E8A31C291414000BBFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5E8A81C291414000BBFF8 /* SignPad ActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignPad ActivityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A5E8AC1C291414000BBFF8 /* SignPad_ActivityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignPad_ActivityUITests.m; sourceTree = "<group>"; };
+		51A5E8AE1C291414000BBFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5E8BA1C29145A000BBFF8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51A5E8BB1C29145A000BBFF8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51A5E8BD1C291503000BBFF8 /* PJRSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRSignatureView.h; sourceTree = "<group>"; };
+		51A5E8BE1C291503000BBFF8 /* PJRSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRSignatureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A5E8811C291414000BBFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A5E89A1C291414000BBFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A5E8A51C291414000BBFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51A5E87B1C291414000BBFF8 = {
+			isa = PBXGroup;
+			children = (
+				51A5E8861C291414000BBFF8 /* SignPad Activity */,
+				51A5E8A01C291414000BBFF8 /* SignPad ActivityTests */,
+				51A5E8AB1C291414000BBFF8 /* SignPad ActivityUITests */,
+				51A5E8851C291414000BBFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51A5E8851C291414000BBFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51A5E8841C291414000BBFF8 /* SignPad Activity.app */,
+				51A5E89D1C291414000BBFF8 /* SignPad ActivityTests.xctest */,
+				51A5E8A81C291414000BBFF8 /* SignPad ActivityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A5E8861C291414000BBFF8 /* SignPad Activity */ = {
+			isa = PBXGroup;
+			children = (
+				51A5E8BD1C291503000BBFF8 /* PJRSignatureView.h */,
+				51A5E8BE1C291503000BBFF8 /* PJRSignatureView.m */,
+				51A5E8BA1C29145A000BBFF8 /* AppDelegate.h */,
+				51A5E8BB1C29145A000BBFF8 /* AppDelegate.m */,
+				51A5E88D1C291414000BBFF8 /* ViewController.h */,
+				51A5E88E1C291414000BBFF8 /* ViewController.m */,
+				51A5E8901C291414000BBFF8 /* Main.storyboard */,
+				51A5E8931C291414000BBFF8 /* Assets.xcassets */,
+				51A5E8951C291414000BBFF8 /* LaunchScreen.storyboard */,
+				51A5E8981C291414000BBFF8 /* Info.plist */,
+				51A5E8871C291414000BBFF8 /* Supporting Files */,
+			);
+			path = "SignPad Activity";
+			sourceTree = "<group>";
+		};
+		51A5E8871C291414000BBFF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51A5E8881C291414000BBFF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51A5E8A01C291414000BBFF8 /* SignPad ActivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				51A5E8A11C291414000BBFF8 /* SignPad_ActivityTests.m */,
+				51A5E8A31C291414000BBFF8 /* Info.plist */,
+			);
+			path = "SignPad ActivityTests";
+			sourceTree = "<group>";
+		};
+		51A5E8AB1C291414000BBFF8 /* SignPad ActivityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51A5E8AC1C291414000BBFF8 /* SignPad_ActivityUITests.m */,
+				51A5E8AE1C291414000BBFF8 /* Info.plist */,
+			);
+			path = "SignPad ActivityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51A5E8831C291414000BBFF8 /* SignPad Activity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A5E8B11C291414000BBFF8 /* Build configuration list for PBXNativeTarget "SignPad Activity" */;
+			buildPhases = (
+				51A5E8801C291414000BBFF8 /* Sources */,
+				51A5E8811C291414000BBFF8 /* Frameworks */,
+				51A5E8821C291414000BBFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SignPad Activity";
+			productName = "SignPad Activity";
+			productReference = 51A5E8841C291414000BBFF8 /* SignPad Activity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51A5E89C1C291414000BBFF8 /* SignPad ActivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A5E8B41C291414000BBFF8 /* Build configuration list for PBXNativeTarget "SignPad ActivityTests" */;
+			buildPhases = (
+				51A5E8991C291414000BBFF8 /* Sources */,
+				51A5E89A1C291414000BBFF8 /* Frameworks */,
+				51A5E89B1C291414000BBFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51A5E89F1C291414000BBFF8 /* PBXTargetDependency */,
+			);
+			name = "SignPad ActivityTests";
+			productName = "SignPad ActivityTests";
+			productReference = 51A5E89D1C291414000BBFF8 /* SignPad ActivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51A5E8A71C291414000BBFF8 /* SignPad ActivityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A5E8B71C291414000BBFF8 /* Build configuration list for PBXNativeTarget "SignPad ActivityUITests" */;
+			buildPhases = (
+				51A5E8A41C291414000BBFF8 /* Sources */,
+				51A5E8A51C291414000BBFF8 /* Frameworks */,
+				51A5E8A61C291414000BBFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51A5E8AA1C291414000BBFF8 /* PBXTargetDependency */,
+			);
+			name = "SignPad ActivityUITests";
+			productName = "SignPad ActivityUITests";
+			productReference = 51A5E8A81C291414000BBFF8 /* SignPad ActivityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51A5E87C1C291414000BBFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Magnaquest;
+				TargetAttributes = {
+					51A5E8831C291414000BBFF8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 22GGN4HC5J;
+					};
+					51A5E89C1C291414000BBFF8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3UV2SS8BHZ;
+						TestTargetID = 51A5E8831C291414000BBFF8;
+					};
+					51A5E8A71C291414000BBFF8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3UV2SS8BHZ;
+						TestTargetID = 51A5E8831C291414000BBFF8;
+					};
+				};
+			};
+			buildConfigurationList = 51A5E87F1C291414000BBFF8 /* Build configuration list for PBXProject "SignPad Activity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51A5E87B1C291414000BBFF8;
+			productRefGroup = 51A5E8851C291414000BBFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51A5E8831C291414000BBFF8 /* SignPad Activity */,
+				51A5E89C1C291414000BBFF8 /* SignPad ActivityTests */,
+				51A5E8A71C291414000BBFF8 /* SignPad ActivityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A5E8821C291414000BBFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5E8971C291414000BBFF8 /* LaunchScreen.storyboard in Resources */,
+				51A5E8941C291414000BBFF8 /* Assets.xcassets in Resources */,
+				51A5E8921C291414000BBFF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A5E89B1C291414000BBFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A5E8A61C291414000BBFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A5E8801C291414000BBFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5E88F1C291414000BBFF8 /* ViewController.m in Sources */,
+				51A5E8891C291414000BBFF8 /* main.m in Sources */,
+				51A5E8BF1C291503000BBFF8 /* PJRSignatureView.m in Sources */,
+				51A5E8BC1C29145A000BBFF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A5E8991C291414000BBFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5E8A21C291414000BBFF8 /* SignPad_ActivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A5E8A41C291414000BBFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5E8AD1C291414000BBFF8 /* SignPad_ActivityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51A5E89F1C291414000BBFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51A5E8831C291414000BBFF8 /* SignPad Activity */;
+			targetProxy = 51A5E89E1C291414000BBFF8 /* PBXContainerItemProxy */;
+		};
+		51A5E8AA1C291414000BBFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51A5E8831C291414000BBFF8 /* SignPad Activity */;
+			targetProxy = 51A5E8A91C291414000BBFF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51A5E8901C291414000BBFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51A5E8911C291414000BBFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51A5E8951C291414000BBFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51A5E8961C291414000BBFF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51A5E8AF1C291414000BBFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51A5E8B01C291414000BBFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51A5E8B21C291414000BBFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 22GGN4HC5J;
+				INFOPLIST_FILE = "SignPad Activity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NareshDoti.SignPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51A5E8B31C291414000BBFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 22GGN4HC5J;
+				INFOPLIST_FILE = "SignPad Activity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NareshDoti.SignPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51A5E8B51C291414000BBFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SignPad ActivityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mq.SignPad-ActivityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignPad Activity.app/SignPad Activity";
+			};
+			name = Debug;
+		};
+		51A5E8B61C291414000BBFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SignPad ActivityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mq.SignPad-ActivityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignPad Activity.app/SignPad Activity";
+			};
+			name = Release;
+		};
+		51A5E8B81C291414000BBFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SignPad ActivityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mq.SignPad-ActivityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SignPad Activity";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		51A5E8B91C291414000BBFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SignPad ActivityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mq.SignPad-ActivityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SignPad Activity";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51A5E87F1C291414000BBFF8 /* Build configuration list for PBXProject "SignPad Activity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A5E8AF1C291414000BBFF8 /* Debug */,
+				51A5E8B01C291414000BBFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A5E8B11C291414000BBFF8 /* Build configuration list for PBXNativeTarget "SignPad Activity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A5E8B21C291414000BBFF8 /* Debug */,
+				51A5E8B31C291414000BBFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A5E8B41C291414000BBFF8 /* Build configuration list for PBXNativeTarget "SignPad ActivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A5E8B51C291414000BBFF8 /* Debug */,
+				51A5E8B61C291414000BBFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A5E8B71C291414000BBFF8 /* Build configuration list for PBXNativeTarget "SignPad ActivityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A5E8B81C291414000BBFF8 /* Debug */,
+				51A5E8B91C291414000BBFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51A5E87C1C291414000BBFF8 /* Project object */;
+}
